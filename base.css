@@ -70,6 +70,51 @@ img {
     color: black;
 }
 
+@media screen and (max-width: 768px) {
+  .header .navbar {
+    display: none;
+  }
+
+  .header .right {
+    justify-content: flex-end;
+  }
+
+  .burger {
+    display: block;
+  }
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+  .header .logo {
+    font-size: 3rem;
+  }
+
+@media screen and (max-width: 768px) {
+  #avatar .grid {
+    flex-direction: column;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .grid .shekil {
+    width: 100%;
+  }
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .footer .logo_footer {
+    font-size: 3rem;
+  }
+
+ 
+}
+
 .header .right {
     display: flex;
     align-items: center;
