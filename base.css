@@ -13,6 +13,8 @@ body {
     margin: 0;
 }
 
+
+
 a {
     text-decoration: none;
 }
@@ -28,7 +30,7 @@ img {
     max-height: 100%;
 }
 
-.list-unstyled {
+.liste {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -71,49 +73,57 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-  .header .navbar {
-    display: none;
+    .header .navbar {
+      display: none;
+    }
+  
+    .header .right {
+      justify-content: flex-end;
+    }
+  
+    .burger {
+      display: block;
+    }
+  
+    /* Ajoutez d'autres règles CSS spécifiques aux petits écrans ici */
   }
-
-  .header .right {
-    justify-content: flex-end;
+  
+  /* Règles CSS pour les écrans d'une largeur maximale de 480 pixels */
+  @media screen and (max-width: 480px) {
+    .header .logo {
+      font-size: 3rem;
+    }
+  
+    /* Ajoutez d'autres règles CSS spécifiques aux écrans mobiles ici */
   }
-
-  .burger {
-    display: block;
+  
+  /* Règles CSS pour la section "avatar" */
+  @media screen and (max-width: 768px) {
+    #avatar .grid {
+      flex-direction: column;
+    }
+  
+    /* Ajoutez d'autres règles CSS spécifiques à la section "avatar" sur les petits écrans ici */
   }
-
-
-}
-
-
-@media screen and (max-width: 480px) {
-  .header .logo {
-    font-size: 3rem;
+  
+  /* Règles CSS pour la grille de cartes */
+  @media screen and (max-width: 768px) {
+    .grid .shekil {
+      width: 100%;
+    }
+  
+    /* Ajoutez d'autres règles CSS spécifiques à la grille de cartes sur les petits écrans ici */
   }
-
-@media screen and (max-width: 768px) {
-  #avatar .grid {
-    flex-direction: column;
+  
+  /* Règles CSS pour le pied de page */
+  @media screen and (max-width: 768px) {
+    .footer .logo_footer {
+      font-size: 3rem;
+    }
+  
+    /* Ajoutez d'autres règles CSS spécifiques au pied de page sur les petits écrans ici */
   }
-
-}
-
-@media screen and (max-width: 768px) {
-  .grid .shekil {
-    width: 100%;
-  }
-
-}
-
-
-@media screen and (max-width: 768px) {
-  .footer .logo_footer {
-    font-size: 3rem;
-  }
-
- 
-}
+  
 
 .header .right {
     display: flex;
@@ -123,6 +133,7 @@ img {
 .container {
     padding: 1rem 2rem;
 }
+
 
 .d_flex {
     display: flex;
@@ -158,7 +169,7 @@ img {
 
 .avatar .title {
     color: inherit;
-    font-size: 5rem;
+    font-size: 4rem;
     margin: 1.6rem 0 0 0;
     font-weight: 700;
 }
