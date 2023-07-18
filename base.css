@@ -143,9 +143,13 @@ img {
 
 }
 
-.avatar {
-    background: #0e0274;
-    color: #FFF;
+#avatar {
+    background-image: url(../image/yupi.jpg);
+    background-size: cover;
+    background-position: center;
+     font-weight: bolder;
+     font-size: 2rem;
+    color: #0f0f0f;
     padding: 1rem 0 0 0;
 
 }
