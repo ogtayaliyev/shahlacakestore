@@ -5,20 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shahla Cake Store</title>
-    <link rel="stylesheet" href="https://ogtayaliyev.github.io/shahlacakestore/base.css">
+    <link rel="stylesheet" href="./css/base1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Cinzel&family=Dancing+Script&display=swap"
         rel="stylesheet">
-    <link rel="shortcut icon" href="https://ogtayaliyev.github.io/shahlacakestore/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon">
     <meta name="description"
         content="Découvrez nos idées des  gâteaux maison ! Pour un anniversaire, un goûter en famille, un pot de départ, un mariage, etc.Shahla Cakes de Metz,France">
-    <script src="./js/glob.js" defer></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="./js/glob.js"></script>
+
 
 </head>
 
 <body>
+
 
 
 
@@ -29,10 +32,6 @@
             <nav class="navbar">
                 <ul class="liste list-unstyled">
                     <li> <a href="index.html">Accueil</a></li>
-                    <li> <a href="#gateau">Gateaux pate a sucre</a></li>
-                    <li> <a href="#sucre">Number Cake</a></li>
-                    <li> <a href="#sale">Gateaux mariage</a></li>
-                    <li> <a href="#competences">Popcakes</a></li>
                     <li> <a href="#about">A propos</a></li>
                     <li> <a href="#contact">Contact</a></li>
                 </ul>
@@ -61,134 +60,69 @@
         </div>
     </header>
 
-    <section id="avatar" class="avatar">
-        <div class="container">
-            <div class="grid">
-                <div class="avatar_item left">
-                    <span>Pâtissier diplômé</span>
-                    <h1 class="title">Bonjour je suis pâtissier diplômé de Metz</h1>
-                    <p>Nous créerons selon vos souhaits des gâteaux </p>
-                </div>
-
-                <div class="avatar_item right">
-                    <div class="shahla">
-                        <img src="https://ogtayaliyev.github.io/shahlacakestore/xavatario.png" alt="Photo de Shahla">
-                    </div>
+    <section class="avatar">
+        <div class="titles">
+            <h1>La Pâtisserie enchante, en un mélange de couleurs, de consistances et de goûts ; elle attire les yeux et
+                régale les papilles. La pâtisserie est un art gourmand où tous nos sens sont mis à contribution.</h1>
+        </div>
+        <div class="grid">
+            <div class="shekil">
+                <div class="card">
+                    <a href=""><img src="./image/licorne.jpeg" onmouseover="this.src='./image/harryp.jpg'"
+                            onmouseout="this.src='./image/licorne.jpeg'" alt="projet de la ville"
+                            class="card__image1"></a>
 
                 </div>
             </div>
-        </div>
+            <div class="shekil">
+                <div class="card">
+                    <a href=""><img src="./image/numcake2.jpeg" onmouseover="this.src='./image/numcake.jpg'"
+                            onmouseout="this.src='./image/numcake2.jpeg'" alt="projet de la ville"
+                            class="card__image2"></a>
+
+                </div>
+            </div>
+            <div class="shekil">
+                <div class="card">
+                    <a href=""><img src="./image/caked.jpg" onmouseover="this.src='./image/nade.jpg'"
+                            onmouseout="this.src='./image/caked.jpg'" alt="projet de la ville" class="card__image3"></a>
+
+                </div>
+            </div>
+            <div class="shekil">
+                <div class="card">
+                    <a href=""><img src="./image/popcake.jpg" alt="projet de la ville" class="card__image4"></a>
+
+                </div>
+            </div>
+            <div class="shekil">
+                <div class="card">
+                    <a href="./apropos.html" target="_blank"><img src="./image/fraise.jpg" alt="projet de la ville"
+                            class="card__image6"></a>
+
+                </div>
+            </div>
+            <div class="shekil">
+                <div class="card">
+                    <a href="./contact.html" target="_blank"><img src="./image/contact.jpg" alt="projet de la ville"
+                            class="card__image5"></a>
+
+                </div>
+
+            </div>
     </section>
 
 
 
-    <div class="grid">
-        <div class="shekil">
-            <div class="card">
-                <img width="400" height="300" src="https://ogtayaliyev.github.io/shahlacakestore/harryp.jpg" alt="projet de la ville" class="card__image">
-                <div class="card__inner">
-                    <h3 class="card__title">Gateaux pâte à sucre</h3>
-                    <p class="category">Gateaux sur themes</p>
-                </div>
-                <div class="card__overlay">
-                    <a href="#">+</a>
-                </div>
-            </div>
-        </div>
-        <div class="shekil">
-            <div class="card">
-                <img width="400" height="300" src="https://ogtayaliyev.github.io/shahlacakestore/numcake.jpg" alt="projet de la ville" class="card__image">
-                <div class="card__inner">
-                    <h3 class="card__title">Number Cakes</h3>
-                    <p class="category">Les cakes aux formes des numeros et lettres</p>
-                </div>
-                <div class="card__overlay">
-                    <a href="#">+</a>
-                </div>
-            </div>
-        </div>
-        <div class="shekil">
-            <div class="card">
-                <img width="400" height="300" src="https://ogtayaliyev.github.io/shahlacakestore/numcake.jpg" alt="projet de la ville" class="card__image">
-                <div class="card__inner">
-                    <h3 class="card__title">Number Cakes</h3>
-                    <p class="category">Les cakes aux formes des numeros et lettres</p>
-                </div>
-                <div class="card__overlay">
-                    <a href="#">+</a>
-                </div>
-            </div>
-        </div>
-        <div class="shekil">
-            <div class="card">
-                <img width="400" height="300" src="https://ogtayaliyev.github.io/shahlacakestore/numcake.jpg" alt="projet de la ville" class="card__image">
-                <div class="card__inner">
-                    <h3 class="card__title">Number Cakes</h3>
-                    <p class="category">Les cakes aux formes des numeros et lettres</p>
-                </div>
-                <div class="card__overlay">
-                    <a href="#">+</a>
-                </div>
-            </div>
-        </div>
-        <div class="shekil">
-            <div class="card">
-                <img width="400" height="300" src="https://ogtayaliyev.github.io/shahlacakestore/caked.jpg" onmouseover="this.src='https://ogtayaliyev.github.io/shahlacakestore/nade.jpg'"
-                    onmouseout="this.src='https://ogtayaliyev.github.io/shahlacakestore/caked.jpg'" alt="projet de la ville" class="card__image">
-                <div class="card__inner">
-                    <h3 class="card__title">Gateaux mariage</h3>
-                    <p class="category">Gateaux montee, mariage,bapteme</p>
-                </div>
-                <div class="card__overlay">
-                    <a href="#">+</a>
-                </div>
-            </div>
-        </div>
-        <div class="shekil">
-            <div class="card">
-                <img width="400" height="300" src="https://ogtayaliyev.github.io/shahlacakestore/popcake.jpg" alt="projet de la ville" class="card__image">
-                <div class="card__inner">
-                    <h3 class="card__title">Popcakes</h3>
-                    <p class="category">POPCAKES</p>
-                </div>
-                <div class="card__overlay">
-                    <a href="#">+</a>
-                </div>
-            </div>
-        </div>
-        <div class="shekil">
-            <div class="card">
-                <img width="400" height="300" src="https://ogtayaliyev.github.io/shahlacakestore/abouut.jpg" alt="projet de la ville" class="card__image">
-                <div class="card__inner">
-                    <h3 class="card__title">A Propos</h3>
-                    <p class="category">Competences</p>
-                </div>
-                <div class="card__overlay">
-                    <a href="#">+</a>
-                </div>
-            </div>
-        </div>
-        <div class="shekil">
-            <div class="card">
-                <img width="400" height="300" src="https://ogtayaliyev.github.io/shahlacakestore/contact.jpg" alt="projet de la ville" class="card__image">
-                <div class="card__inner">
-                    <h3 class="card__title">Contact</h3>
-                    <p class="category">Envoyer Mail</p>
-                </div>
-                <div class="card__overlay">
-                    <a href="#">+</a>
-                </div>
-            </div>
-        </div>
-    </div>
+
 
 
     <footer class="footer">
-        <div class="container">
-            <div class="logo_footer">Shahla Cake Store</div>
-        </div>
 
     </footer>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="./js/glob.js"></script>
 
 </body>
 
