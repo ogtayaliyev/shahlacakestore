@@ -234,49 +234,4 @@ section {
     transform: translateY(8px);
 }
 
-/* Ajoutez les styles pour les écrans de taille réduite */
-@media (max-width: 768px) {
-    .liste {
-        padding-left: 0; /* Réinitialisez le padding */
-        text-align: center; /* Centrez les éléments de la liste */
-    }
-    
-    .header .logo {
-        padding-left: 0; /* Réinitialisez le padding */
-        text-align: center; /* Centrez le logo */
-    }
-    
-    .header .right {
-        padding-right: 1rem; /* Ajoutez un espace à droite pour le bouton burger */
-    }
-    
-    .grid {
-        top: auto;
-        left: auto;
-        width: 100%; /* Utilisez la largeur complète */
-        height: auto;
-        position: static;
-        flex-direction: column; /* Empilez les éléments */
-        align-items: center; /* Centrez les éléments horizontalement */
-    }
-    
-    .card__image {
-        width: 100%; /* Utilisez la largeur complète */
-        height: auto; /* Ajustez la hauteur en fonction de l'image */
-        border-radius: 0; /* Désactivez le border-radius */
-    }
-    
-    .card__inner {
-        text-align: center; /* Centrez le contenu */
-    }
-    
-    .avatar_item {
-        text-align: center; /* Centrez le contenu */
-    }
-}
-
-/* Ajoutez des styles pour les écrans encore plus petits si nécessaire */
-@media (max-width: 480px) {
-    /* Ajoutez des règles CSS spécifiques pour les écrans très petits ici */
-}
 
