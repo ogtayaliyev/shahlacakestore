@@ -22,7 +22,7 @@ html {
 }
 
 body {
-    background-image: ./bgg6.jpg
+    background-image: url(./bgg6.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Lora', serif;
@@ -30,6 +30,7 @@ body {
     line-height: 1.6;
     margin: 0;
 }
+
 
 
 
