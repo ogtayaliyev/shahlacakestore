@@ -22,7 +22,7 @@ html {
 }
 
 body {
-    background-image: url("href="https://ogtayaliyev.github.io/shahlacakestore/bgg6.jpg");
+    background-image: ./bgg6.jpg
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Lora', serif;
